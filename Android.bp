@@ -1,0 +1,33 @@
+// Firmware from the stock AGM M7 vendor partition
+
+prebuilt_firmware {
+    name: "rogue_22.49.21.16_ddk19.fw",
+    src: "proprietary/vendor/firmware/rgx.fw.signed",
+    sub_dir: "powervr",
+    filename: "rogue_22.49.21.16_ddk19.fw",
+    soc_specific: true,
+}
+
+prebuilt_firmware {
+    name: "ROMv2_lm_patch_1_0_hdr.bin",
+    src: "proprietary/vendor/firmware/ROMv2_lm_patch_1_0_hdr.bin",
+    soc_specific: true,
+}
+
+prebuilt_firmware {
+    name: "ROMv2_lm_patch_1_1_hdr.bin",
+    src: "proprietary/vendor/firmware/ROMv2_lm_patch_1_1_hdr.bin",
+    soc_specific: true,
+}
+
+prebuilt_firmware {
+    name: "WIFI_RAM_CODE_6755",
+    src: "proprietary/vendor/firmware/WIFI_RAM_CODE_6755",
+    soc_specific: true,
+}
+
+prebuilt_firmware {
+    name: "WMT_SOC.cfg",
+    src: "proprietary/vendor/firmware/WMT_SOC.cfg",
+    soc_specific: true,
+}
