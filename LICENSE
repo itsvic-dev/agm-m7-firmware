@@ -1,0 +1,14 @@
+The files in proprietary/ are not free software. They are not covered by
+the GPL or any other open licence. They belong to their copyright holders:
+
+- proprietary/vendor/firmware/rgx.fw.signed: Imagination Technologies Ltd.
+- proprietary/vendor/firmware/ROMv2_lm_patch_1_0_hdr.bin,
+  ROMv2_lm_patch_1_1_hdr.bin, WIFI_RAM_CODE_6755, WMT_SOC.cfg:
+  MediaTek Inc.
+
+They are copied unchanged from the stock vendor partition of the AGM M7
+(build fingerprint
+AGM/Q12_1/Q12_1:8.1.0/OPM1.171019.026/L1635.6.01.01:user/release-keys).
+
+The build files (Android.bp, m7-vendor.mk) are under the
+GPL-2.0-or-later, like the rest of the AGM M7 port.
